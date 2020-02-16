@@ -3,6 +3,7 @@ class Anagram
   
   def initialize
     @word = word
+  end
   
   def match(array_of_words)
     array_of_words.select do |element|
@@ -11,5 +12,4 @@ class Anagram
     
 end
 
-end
     
