@@ -6,7 +6,7 @@ class Anagram
     @match = match
   
   def match
-    
+    match.include? 
 end
 
 end
