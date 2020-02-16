@@ -1,12 +1,11 @@
 class Anagram
-  attr_accessor :name, :match
+  attr_accessor :word
   
   def initialize
-    @name = name
-    @match = match
+    @word = word
   
-  def match
-    match.include? 
+  def match(word)
+    
 end
 
 end
